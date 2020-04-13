@@ -74,7 +74,6 @@ export default {
     // sass: ...
   },
   router: {
-    base: './',
     extendRoutes(routes, resolve) {
       routes = router(routes, resolve)
     }
