@@ -1,16 +1,15 @@
 <template>
   <div class="home">
-    <el-carousel height="150px">
-      <el-carousel-item v-for="item in 4" :key="item">
-        <h3 class="small">{{ item }}</h3>
-      </el-carousel-item>
-    </el-carousel>
+    <Banner></Banner>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    Banner: () => import('@/components/Banner')
+  }
 }
 </script>
 
