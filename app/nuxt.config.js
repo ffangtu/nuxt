@@ -74,6 +74,7 @@ export default {
     // sass: ...
   },
   router: {
+    base: '/nuxt',
     extendRoutes(routes, resolve) {
       routes = router(routes, resolve)
     }
