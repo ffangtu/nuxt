@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Banner></Banner>
+    <!--    <Banner></Banner>-->
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   name: 'Home',
   components: {
-    Banner: () => import('@/components/Banner')
+    // Banner: () => import('@/components/Banner')
   }
 }
 </script>
